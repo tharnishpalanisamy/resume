@@ -138,4 +138,6 @@ body{
 
 .socials a:hover{
     transform: scale(1.2);
+    background:var(--secondary);
+    color: var(--primary);
 }
