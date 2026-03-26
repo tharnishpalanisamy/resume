@@ -115,3 +115,27 @@ body{
     color:var(--primary);
     background: var(--secondary);
 }
+.socials{
+    position: absolute;
+    bottom: 40px;
+    width: 170px;
+    background: transparent;
+}
+
+.socials a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    width: 40px;
+    height: 40px;
+    border: 2px solid var(--secondary);
+    color: var(--secondary);
+    border-radius: 50%;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.socials a:hover{
+    transform: scale(1.2);
+}

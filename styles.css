@@ -106,3 +106,14 @@ ul.experience-contents li {
     margin: 10px 0;
 }
 
+.social-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-links a:hover{
+    transform: scale(1.2);
+}
+
