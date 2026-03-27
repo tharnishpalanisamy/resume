@@ -1,89 +1,103 @@
-
 body {
     display: flex;
     justify-content: center;
     align-items: center;   
     margin: 0;
-    background-color: #f8f9fa; 
-    color:#f8f9fa ; 
+    background-color: #f1f5f9; 
+    color: #0f172a; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 .container{
     display: flex; 
     justify-content: center;
-    border: 4px solid black;
-    width:60%; 
-    height: 80%;
+    border-radius: 12px;
+    width: 65%; 
+    height: 85%;
+    background-color: #ffffff;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
 }
-.passportphoto{
-    height: 180px ; 
-    width:160px;
-    border-radius: 50%;
-    border: 4px solid #f6fff8;
-}
-.title{
-    color:#22333b ;
-    background-color: #f6fff8;
-    margin-left: 10px;
-    width: 80%;
-    text-indent: 70px;
-}
+
 .first{
     flex:1; 
-    background-color: #22333b;
+    background-color: #1e293b;
+    color: #f1f5f9;
+    padding: 20px;
 }
+
 .second{
-    color: black;
+    color: #0f172a;
     flex:2;
-    background-color: #f6fff8;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.passportphoto{
+    height: 180px; 
+    width: 160px;
+    border-radius: 50%;
+    border: 4px solid #3b82f6;
+}
+
+.title{
+    color: #ffffff;
+    background-color: #3b82f6;
+    margin-left: 10px;
+    width: 80%;
+    text-indent: 20px;
+    border-radius: 6px;
+}
+
+.second-title{
+    color: #ffffff;
+    background-color: #1e293b;
+    margin-left: 10px;
+    width: 60%;
+    text-indent: 20px;
+    border-radius: 6px;
 }
 
 .links, .links:link, .links:visited {
     text-decoration: none;
-    color: #f8f9fa;
+    color: #93c5fd;
 }
+
 .links:hover {
     text-decoration: underline;
-    color: #e4c1f9;
+    color: #60a5fa;
 }
+
 p{
     text-indent: 10px;
 }
-ul.skills li::marker {
-    color: #f6fff8;
-}
-ul.languages li::marker {
-    color: #f6fff8;
-}
+
+ul.skills li::marker,
+ul.languages li::marker,
 ul.hobbies li::marker {
-    color: #f6fff8;
+    color: #3b82f6;
 }
+
 .contact{
     font-weight: 500;
     font-size: 14px;
-    line-height: 0.3;
+    line-height: 1.2;
 }
 
 ul li{
     font-weight: 500;
 }
+
 .image{
     margin-left: 40px;
 }
+
 .second-header{
     margin-top: 10px;
     text-align: center;
 }
-h2{
-    line-height: 0.3;
-}
 
-.second-title{
-    color:#f8f9fa ;
-    background-color: #22333b;
-    margin-left: 10px;
-    width: 60%;
-    text-indent: 70px;   
+h2{
+    line-height: 1.2;
 }
 
 .project-title{
@@ -98,6 +112,7 @@ ul.contact-details li {
     list-style-type: none;
     margin-left: 0px;
 }
+
 .experience{
     margin-left: 20px;
 }
@@ -116,4 +131,3 @@ ul.experience-contents li {
 .social-links a:hover{
     transform: scale(1.2);
 }
-

@@ -114,6 +114,7 @@ body{
 .btn-box a:hover:nth-child(2){
     color:var(--primary);
     background: var(--secondary);
+    transition: 0.5s;
 }
 .socials{
     position: absolute;
@@ -139,5 +140,98 @@ body{
 
 .socials a:hover{
     transform: scale(1.2);
+}
 
+.about{
+    height: 100vh;
+    padding: 10px 10%;
+    display: flex;
+    align-items: center;
+}
+
+.about-content{
+    max-width: 600px;
+    
+}
+
+.about-content h1{ 
+    font-size: 56px; 
+    font-weight: 600;
+    color: var(--secondary);
+}
+.about-content p {
+    font-size: 16px; 
+    margin: 20px 0;
+}
+
+#project{
+
+    padding: 10% 20px;
+}
+#project h1{
+    padding: 10px 0px 10px 300px;
+    color: var(--secondary);
+}
+.project-container{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background:transparent;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card{
+    max-width: auto;
+    max-height: auto;
+    margin: 20px;
+    background: var(--primary);
+    border: 4px solid var(--secondary);
+    padding: 20px 25px;
+    border-radius: 8px;
+}
+.project-subtitle{
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-subtitle a{
+    border: 2px solid var(--secondary);
+    padding: 5px 10px;
+    text-decoration: none;
+    background: var(--secondary);
+    color: var(--primary);
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 4px;
+}
+.project-subtitle a:hover{
+    color: var(--secondary);
+    background: var(--primary);
+}
+
+.project-subtitle h4{
+    color: var(--secondary);
+    font-size: 20px;
+}
+.project-title{
+    font-weight: 700;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0, 171, 240, 0.4);
+    transition: 0.3s;
+
+}
+
+ul li{
+    padding: 10px;
+
+}
+
+ul li::marker{
+    color: var(--secondary);
 }
