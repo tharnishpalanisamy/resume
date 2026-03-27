@@ -41,7 +41,7 @@ body {
 
 .title{
     color: #ffffff;
-    background-color: #3b82f6;
+    background-color: #00abf0;
     margin-left: 10px;
     width: 80%;
     text-indent: 20px;
@@ -50,7 +50,7 @@ body {
 
 .second-title{
     color: #ffffff;
-    background-color: #1e293b;
+    background-color: #081b29;
     margin-left: 10px;
     width: 60%;
     text-indent: 20px;
@@ -74,7 +74,7 @@ p{
 ul.skills li::marker,
 ul.languages li::marker,
 ul.hobbies li::marker {
-    color: #3b82f6;
+    color: #00abf0;
 }
 
 .contact{

@@ -142,6 +142,8 @@ body{
     transform: scale(1.2);
 }
 
+
+
 .about{
     height: 100vh;
     padding: 10px 10%;
@@ -165,15 +167,15 @@ body{
 }
 
 #project{
-
     padding: 10% 20px;
 }
 #project h1{
-    padding: 10px 0px 10px 300px;
+    text-align: center;
+
     color: var(--secondary);
 }
 .project-container{
-    width: 50%;
+    width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -184,7 +186,7 @@ body{
 
 
 .card{
-    max-width: auto;
+    width: 60%;
     max-height: auto;
     margin: 20px;
     background: var(--primary);
@@ -220,6 +222,10 @@ body{
     font-weight: 700;
 }
 
+.project-title h2{
+    font-size: 30px;
+}
+
 .card:hover{
     transform: translateY(-10px);
     box-shadow: 0 10px 25px rgba(0, 171, 240, 0.4);
@@ -234,4 +240,25 @@ ul li{
 
 ul li::marker{
     color: var(--secondary);
+}
+
+.role{
+    color: var(--secondary);
+    font-size: 25px;
+}
+
+#experience{
+    padding: 10% 20px;
+}
+#experience h1{
+    text-align: center;
+    color: var(--secondary); 
+    padding-bottom: 10px;
+}
+.experience-container{
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
