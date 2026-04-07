@@ -159,8 +159,8 @@ body{
 .about-content h1{ 
     font-size: 56px; 
     font-weight: 600;
-    color: var(--secondary);
 }
+
 .about-content p {
     font-size: 16px; 
     margin: 20px 0;
@@ -261,4 +261,98 @@ ul li::marker{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.highlight{
+    color: var(--secondary);
+}
+
+#skills h1{
+    padding: 10% 20px 20px;
+    text-align: center;
+}
+.skill-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.skill-card{
+    border: 4px solid var(--secondary);
+    height: 400px;
+    width: 400px;
+    border-radius: 6px;
+}
+.skill-card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0, 171, 240, 0.4);
+    transition: 0.3s;
+
+}
+.skill-card .skill-title{
+    padding: 10px;
+    text-align: center;
+}
+.skill p{
+    display: flex;
+    justify-content: space-between;
+}
+.skill-card .skill{
+    padding: 10px 15px;
+}
+
+.skill{
+    font-size: 16px;
+    font-weight: 600;
+}
+.skill .percentage{
+    text-align: left;
+
+}
+
+.progress-bar{
+    width: 100%; 
+    height: 8px; 
+    margin-top: 5px;
+    background: #ddd;
+    border-radius: 10px;
+}
+
+.progress{
+    height: 100%;
+    background: var(--secondary);
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+#education{
+    padding: 10% 20px 20px;
+}
+#education h1{
+    color: var(--secondary);
+    text-align: center;
+}
+
+.square{
+    height: 20px;
+    width: 20px;
+    background: var(--secondary);
+}
+.education-card{
+    border: 4px solid var(--secondary);
+    height: 300px;
+    width: 700px;
+    border-radius: 8px;
+    padding: 20px;
+}
+.education-title{
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 0px;
+    
+}
+
+.education-content{
+    padding: 7px 0;
+    width: 100%;
 }
