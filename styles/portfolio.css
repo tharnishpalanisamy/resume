@@ -452,7 +452,10 @@ ul li::marker{
     text-align: justify;
 }
 .btn{
+    display: inline-flex;
+    justify-content: center;
     height: 25px;
+    width: 50px;
 }
 .role{
     font-size: 18px;
