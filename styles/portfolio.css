@@ -466,6 +466,7 @@ ul li::marker{
     font-size: 26px; 
 }
 .about-content p {
+    width: 95%;
     font-size: 12px; 
     text-align: justify;
     margin: 20px 0;
