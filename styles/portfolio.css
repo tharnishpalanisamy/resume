@@ -142,8 +142,6 @@ body{
     transform: scale(1.2);
 }
 
-
-
 .about{
     height: 100vh;
     padding: 10px 10%;
@@ -403,14 +401,14 @@ ul li::marker{
     margin: 10px 0 20px; 
     width: 95%;
     text-align: justify;
-}
-.btn-box {
+    }
+    .btn-box {
     display:flex;
     justify-content: space-between;
     width: 350px;
     height: 50px;
-}
-.btn-box a   {
+    }
+    .btn-box a   {
     display: inline-flex;
     justify-content: center;
     font-size: 12px;
@@ -418,15 +416,46 @@ ul li::marker{
     width: 100px;
     height: 80%;
     padding: 10px;
-} 
-.btn-box a:nth-child(2){
+    } 
+    .btn-box a:nth-child(2){
     margin-right: 80px;
+    }
+    .socials{
+    position: static ;   
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+ 
 }
-.socials{
-    position: absolute;
-    bottom: 40px;
-    width: 170px;
-    background: transparent;
+    .card{
+    width: 100%;
+    }
+    .project-subtitle h4{
+        font-size: 16px;
+    }
+    .project-subtitle a{
+    border: 2px solid var(--secondary);
+    padding: 0px;
+    text-decoration: none;
+    background: var(--secondary);
+    color: var(--primary);
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 4px;
+}
+.project-title h2{
+    padding-top: 8px;
+    font-size: 18px;
+}
+.project-content li {
+    font-size: 12px;
+    text-align: justify;
+}
+.btn{
+    height: 25px;
+}
+.role{
+    font-size: 18px;
 }
 
 }
