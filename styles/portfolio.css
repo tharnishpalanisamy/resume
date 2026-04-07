@@ -273,6 +273,7 @@ ul li::marker{
     display: flex;
     justify-content: center;
     gap: 30px;
+    box-sizing: border-box;
 }
 
 .skill-card{
@@ -382,7 +383,7 @@ ul li::marker{
         font-size: 12px ; 
         margin-left: 10px;
     }
-    .home{
+    .home , .about{
     height: 100vh; 
     display: flex;
     align-items: self-start;
@@ -459,6 +460,25 @@ ul li::marker{
 }
 .role{
     font-size: 18px;
+}
+
+.about-content h1{ 
+    font-size: 26px; 
+}
+.about-content p {
+    font-size: 12px; 
+    text-align: justify;
+    margin: 20px 0;
+}
+#skills h1{
+    font-size: 26px;
+}
+.skill-container{
+    flex-direction: column;
+    margin-left: 30px;
+}
+.skill-card{
+    width: 90%;
 }
 
 }
