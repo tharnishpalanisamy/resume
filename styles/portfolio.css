@@ -490,10 +490,10 @@ ul li::marker{
     font-size: 12px;
 }
 .education-title h2{
-    font-size: 20px;
+    font-size: 12px;
 }
 .education-title h3{
-    font-size: 16px;
+    font-size: 10px;
 }
 .square{
     height: 10px;
@@ -502,12 +502,15 @@ ul li::marker{
 .education-card{
     height: auto;
     width: auto;
+    padding: 10px 20px;
+    
+    
     }
 .education-content p {
     font-size: 12px;
     text-align: justify;
 }
 .education-institute h2{
-    font-size: 20px;
+    font-size: 12px;
 }
 }
