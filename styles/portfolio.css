@@ -514,4 +514,7 @@ ul li::marker{
 .education-institute h2{
     font-size: 12px;
 }
+.skill p{
+    font-size: 12px;
+}
 }
